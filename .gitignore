@@ -1,0 +1,48 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Local Runtime Data, Databases & Temporary Media (never commit!)
+backend/storage/
+backend/tmp_jobs/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+*.part
+*.tmp
+tmp_*.mp4
+tmp_*.mp3
+
+# Environment & Secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Node / Frontend Build Artifacts
+node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Local AI / Agent & Architecture Cache Directories
+graphify-out/
+.agents/
+unslop/
+unslop-story/
+
+# Test Output & OS Files
+test-results/
+playwright-report/
+.DS_Store
+.idea/
+.vscode/
